@@ -39,6 +39,6 @@ class Player
         {
         this.velocity.y += this.gravity
         }
-        else this.velocity.y = -100
+        else this.velocity.y = 0
     }
 }
