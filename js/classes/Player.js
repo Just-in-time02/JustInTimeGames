@@ -4,7 +4,7 @@ class Player
     {
         this.position = {
           x: 100,
-          y: 200  
+          y: 100  
         }
 
         this.velocity = {
@@ -39,6 +39,6 @@ class Player
         {
         this.velocity.y += this.gravity
         }
-        else this.velocity.y = 0
+        else this.velocity.y = 100
     }
 }
