@@ -25,7 +25,7 @@ class Player
 
     draw()
     {
-    c.fillStyle = 'Red';
+    c.fillStyle = 'red';
     c.fillRect(this.position.x, this.position.y,  this.width, this.height)
     }
 
@@ -34,9 +34,11 @@ class Player
         this.position.y += this.velocity.y
 
         //above bottom of canvas
-        if(this.sides.bottom + this.velocity.y < canvas.height){
-        this.velocity.y += this.gravity
+        if(this.sides.bottom + this.velocity.y < canvas.height)
+        {
+        this.velocity.y += 1
         this.sides.bottom = this.position.y + this.height
-        }else this.velocity.y = 0
+        }
+        else this.velocity.y = 0
     }
 }
