@@ -7,7 +7,7 @@ class Sprite{
             this.loaded = true
          }
           this.image.src = imageSrc
-          this.loaded =  false
+          this.loaded =  true
 
     }
 
