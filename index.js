@@ -34,8 +34,10 @@
       switch (event.key){
          case 'w':
           
+         console.log('i pressed w')
          player.velocity.y = -10
 
+         break
       }
 
      })
