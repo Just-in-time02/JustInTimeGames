@@ -4,7 +4,7 @@ class Player
     {
         this.position = {
           x: 100,
-          y: 100  
+          y: 200  
         }
 
         this.velocity = {
