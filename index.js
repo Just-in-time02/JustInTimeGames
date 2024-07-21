@@ -35,9 +35,18 @@
          case 'w':
           
          console.log('i pressed w')
-         player.velocity.y = -10
+         if(player.velocity.y === 0)player.velocity.y = -20
 
          break
+
+         case'a':
+         player.velocity.x  = -4
+         break
+
+         case 'd':
+         player.velocity.x  = 4
+         break
+
       }
 
      })
