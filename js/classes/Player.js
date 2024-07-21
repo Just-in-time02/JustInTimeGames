@@ -38,7 +38,6 @@ class Player
         if(this.sides.bottom + this.velocity.y < canvas.height)
         {
         this.velocity.y += this.gravity
-       
         }
         else this.velocity.y = 0
     }

@@ -50,3 +50,23 @@
       }
 
      })
+
+     
+     window.addEventListener('keyup', (event) => {
+
+      console.log(event)
+
+      switch (event.key){
+        
+
+         case'a':
+         player.velocity.x  = 0
+         break
+
+         case 'd':
+         player.velocity.x  = 0
+         break
+
+      }
+
+     })
