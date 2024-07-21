@@ -1,6 +1,6 @@
 class Sprite{
 
-    constructor(position, imageSrc){
+    constructor({position, imageSrc}){
           this.position = position
           this.image = new Image()
           this.image.onload = () => {
