@@ -3,7 +3,7 @@
      const c = canvas.getContext('2d')
 
      canvas.width = 64 * 16
-     canvas.height = 32 * 9
+     canvas.height = 64 * 9
 
   
 
