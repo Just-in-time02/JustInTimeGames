@@ -9,7 +9,7 @@ class Player
 
         this.velocity = {
             x: 0,
-            y: 50,
+            y: 0,
 
         }
 
