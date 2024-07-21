@@ -6,8 +6,10 @@ class Sprite{
           this.image.onload = () => {
             this.loaded = true
          }
+
+          this.loaded =  false
           this.image.src = imageSrc
-          this.loaded =  true
+          
 
     }
 
